@@ -1,9 +1,9 @@
 [
   {"id":1, "description":"Buy Groceries", "status":"todo", "createdAt":"2025-10-04T17:04:26.4502731", "updatedAt":"2025-10-04T17:04:26.4502731"},
-  {"id":2, "description":"", "status":"todo", "createdAt":"2025-10-04T17:04:58.2043727", "updatedAt":"2025-10-04T17:07:23.9583381"},
-  {"id":3, "description":"", "status":"todo", "createdAt":"2025-10-04T17:05:39.6172318", "updatedAt":"2025-10-04T17:09:11.8684376"},
-  {"id":4, "description":"", "status":"todo", "createdAt":"2025-10-04T17:05:57.4243459", "updatedAt":"2025-10-04T17:08:48.2388788"},
-  {"id":5, "description":"", "status":"todo", "createdAt":"2025-10-04T17:06:30.1791313", "updatedAt":"2025-10-04T17:09:26.6367752"},
+  {"id":2, "description":"Walk the Dog", "status":"done", "createdAt":"2025-10-04T17:05:03.1234567", "updatedAt":"2025-10-04T17:06:10.7654321"},
+  {"id":3, "description":"Read a Book", "status":"in-progress", "createdAt":"2025-10-04T17:06:45.9876543", "updatedAt":"2025-10-04T17:06:45.9876543"},
+  {"id":4, "description":"Exercise", "status":"done", "createdAt":"2025-10-04T17:07:15.2345678", "updatedAt":"2025-10-04T17:07:45.8765432"},
+  {"id":5, "description":"Call Mom", "status":"in-progress", "createdAt":"2025-10-04T17:07:50.1234567", "updatedAt":"2025-10-04T17:07:50.1234567"},
   {"id":6, "description":"Pay Internet Bill", "status":"todo", "createdAt":"2025-10-04T17:08:03.9952054", "updatedAt":"2025-10-04T17:08:03.9952054"},
   {"id":7, "description":"Plan Weekend Trip", "status":"todo", "createdAt":"2025-10-04T17:08:26.326778", "updatedAt":"2025-10-04T17:08:26.326778"}
 ]

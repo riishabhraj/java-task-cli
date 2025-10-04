@@ -10,8 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskManager {
-//    load the csv by checking the file path
-
     private List<Task> tasks;
 
     public TaskManager() throws IOException {
@@ -117,11 +115,13 @@ public class TaskManager {
         Task taskToUpdate = tasks.stream()
                 .filter(task -> task.getId() == Integer.parseInt(id))
                 .findFirst()
-                .orElse(null);  // unwrap Optional safely
+                .orElse(null);
 
-        if (taskToUpdate != null) {                  // check if found
+        if (taskToUpdate != null) {
             taskToUpdate.setDescription(description);
             taskToUpdate.setUpdatedAt(LocalDateTime.now());
+            System.out.println("Task updated Successfully (ID: " + taskToUpdate.getId() +")");
+
         } else {
             System.out.println("Task with id " + id + " not found!");
         }
@@ -131,10 +131,10 @@ public class TaskManager {
         Task taskToDelete = tasks.stream()
                 .filter(task -> task.getId() == Integer.parseInt(id))
                 .findFirst()
-                .orElse(null);       // unwrap Optional
+                .orElse(null);
 
         if (taskToDelete != null) {
-            tasks.remove(taskToDelete);              // remove from the list
+            tasks.remove(taskToDelete);
             System.out.println("Task " + id + " deleted successfully.");
         } else {
             System.out.println("Task with id " + id + " not found.");
@@ -159,7 +159,7 @@ public class TaskManager {
         Task taskToMarkDone = tasks.stream()
                 .filter(task -> task.getId() == Integer.parseInt(id))
                 .findFirst()
-                .orElse(null);       // unwrap Optional
+                .orElse(null);
 
         if (taskToMarkDone != null) {
             taskToMarkDone.markDone("done");
