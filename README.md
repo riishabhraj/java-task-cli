@@ -75,3 +75,6 @@ Use the following commands in the CLI:
 ## License
 MIT
 
+## Project URL
+
+For more details and roadmap, visit: [Task Tracker Project Roadmap](https://roadmap.sh/projects/task-tracker)
